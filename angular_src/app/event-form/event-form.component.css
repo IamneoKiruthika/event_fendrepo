@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 20px;
+  }
+  
+  .form-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card h2 {
+    color: #343a40;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    font-weight: 500;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }  
+
+  .description-box {
+    resize: vertical; /* Allows users to resize the box vertically */
+    border-radius: 15px;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* Slightly lighter background for a subtle effect */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .description-box:focus {
+    background-color: #fff; /* White background when focused */
+    border-color: #007bff; /* Border color change on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+
+  .alert {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .alert-success {
+    background-color: #068a5197;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
